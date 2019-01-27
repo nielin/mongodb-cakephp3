@@ -55,13 +55,20 @@ class Mongodb
      */
     protected $_baseConfig = [
         'set_string_id' => true,
-        'persistent' => true,
-        'host'             => 'localhost',
-        'database'     => '',
-        'port'             => 27017,
-        'login'     => '',
-        'password'    => '',
+        'persistent'    => true,
+        'host'          => 'localhost',
+        'database'      => '',
+        'port'          => 27017,
+        'login'         => '',
+        'password'      => '',
         'replicaset'    => '',
+        'ssh_host'      => '',
+        'ssh_port'      => 22,
+        'ssh_user'      => '',
+        'ssh_password'  => '',
+        'ssh_pubkey_path'       => '',
+        'ssh_privatekey_path'   => '',
+        'ssh_pubkey_passphrase' => '',
     ];
 
     /**
